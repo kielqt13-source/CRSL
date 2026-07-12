@@ -1,7 +1,7 @@
 <x-app-layout>
 
   <div class="d-flex justify-content-between align-items-center mb-4">
-    <h4 class="fw-bold mb-0"><span class="text-muted fw-light">OCR /</span> New Recognition</h4>
+    <h4 class="mb-0">New Recognition</h4>
   </div>
 
   <div class="row justify-content-center">

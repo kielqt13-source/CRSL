@@ -1,7 +1,7 @@
 <x-app-layout>
 
   <div class="d-flex justify-content-between align-items-center mb-4">
-    <h4 class="fw-bold mb-0"><span class="text-muted fw-light">OCR /</span> Recognition History</h4>
+    <h4 class="mb-0">Recognition History</h4>
     <a href="{{ route('recognitions.create') }}" class="btn btn-primary">
       <i class="bx bx-upload me-1"></i> New Recognition
     </a>

@@ -1,5 +1,5 @@
 <x-guest-layout>
-  <h4 class="mb-2">Welcome to CRSL! 👋</h4>
+  <h4 class="mb-2">Welcome to CRMS! 👋</h4>
   <p class="mb-4 text-muted">Please sign in to your account</p>
 
   <!-- Session Status -->

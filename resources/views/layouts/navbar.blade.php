@@ -1,16 +1,14 @@
-<nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+<nav class="layout-navbar navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
   <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
 
-    <!-- System title -->
     <div class="navbar-nav align-items-center">
       <div class="nav-item d-flex align-items-center">
         <span class="fw-semibold text-uppercase" style="letter-spacing:.05em; color:#697a8d; font-size:.85rem;">
-          Civil Registrar
+          CIVIL REGISTRY SYSTEM OF MASSIN CITY
         </span>
       </div>
     </div>
 
-    <!-- Right items -->
     <ul class="navbar-nav flex-row align-items-center ms-auto gap-1">
 
       <li class="nav-item">
@@ -25,12 +23,11 @@
         </a>
       </li>
 
-      <!-- User Dropdown -->
       <li class="nav-item navbar-dropdown dropdown-user dropdown">
         <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
           <div class="avatar avatar-online">
             <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center"
-                 style="width:38px;height:38px;">
+                 style="width:38px;height:38px;"> 
               <span class="text-white fw-bold" style="font-size:15px;">
                 {{ strtoupper(substr(Auth::user()->name, 0, 1)) }}
               </span>

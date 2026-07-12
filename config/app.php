@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => strtoupper(env('APP_NAME', 'CRSL')),
+    'name' => strtoupper(env('APP_NAME', 'CRMS')),
 
     /*
     |--------------------------------------------------------------------------

@@ -15,7 +15,7 @@
     <title>{{ config('app.name', 'CRSL') }} | @yield('title', 'Dashboard')</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('sneat/img/favicon/favicon.ico') }}" />
+    <link rel="icon" type="image/webp" href="{{ asset('images/Official_Seal_of_Southern_Leyte.svg.webp') }}" />
 
     <!-- Fonts: Public Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,6 +41,12 @@
 
       /* ─── Brand text uppercase ─── */
       .app-brand-text { text-transform: uppercase !important; }
+
+      #layout-navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1080;
+      }
 
       /* ─── Sidebar background (SIS light grey) ─── */
       .layout-menu.bg-menu-theme {

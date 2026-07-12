@@ -3,7 +3,7 @@
 
 <div class="d-flex justify-content-between align-items-center mb-4">
   <h4 class="fw-bold mb-0">
-    <span class="text-muted fw-light">OCR /</span> Verify Document
+    Verify Document
   </h4>
   <a href="{{ route('recognitions.show', $recognition) }}" class="btn btn-outline-secondary btn-sm">
     <i class="bx bx-arrow-back me-1"></i> Back to Result

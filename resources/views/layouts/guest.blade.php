@@ -58,7 +58,7 @@
                   <span class="app-brand-logo demo">
                     <img src="{{ asset('images/Official_Seal_of_Southern_Leyte.svg.webp') }}" alt="Provincial Seal" style="width: 40px; height: 40px;">
                   </span>
-                  <span class="app-brand-text demo text-body fw-bolder">CRSL</span>
+                  <span class="app-brand-text demo text-body fw-bolder">CRMS</span>
                 </a>
               </div>
               <!-- /Logo -->
