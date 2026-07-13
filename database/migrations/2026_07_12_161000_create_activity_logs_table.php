@@ -8,6 +8,11 @@ return new class extends Migration
 {
     public function up(): void
     {
+        // This migration is a duplicate of 2026_07_10_000006_create_activity_logs_table.php
+        // and would cause an error when running migrations. The other migration is more complete.
+        // This migration's `up` method has been commented out to prevent errors.
+        // It is recommended to delete this file.
+        /*
         Schema::create('activity_logs', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
@@ -19,10 +24,11 @@ return new class extends Migration
             $table->timestamps();
             $table->index(['loggable_type', 'loggable_id']);
         });
+        */
     }
 
     public function down(): void
     {
-        Schema::dropIfExists('activity_logs');
+        // No action needed here as the other migration handles creation and deletion.
     }
 };
