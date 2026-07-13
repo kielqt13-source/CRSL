@@ -9,7 +9,7 @@
             <div class="card-body">
               <h5 class="card-title text-primary">Welcome back, {{ Auth::user()->name }}! 🎉</h5>
               <p class="mb-4">
-                Use the CRSL system to recognize handwritten text from images using AI-powered OCR.
+                Use the CRMS system to recognize handwritten text from images using AI-powered OCR.
               </p>
               <a href="{{ route('recognitions.create') }}" class="btn btn-sm btn-primary">
                 <i class="bx bx-upload me-1"></i> New Recognition
@@ -18,7 +18,7 @@
           </div>
           <div class="col-sm-5 text-center text-sm-left">
             <div class="card-body pb-0 px-0 px-md-4">
-              <i class="bx bx-pencil" style="font-size: 80px; color: #696cff; opacity: 0.3;"></i>
+              <i class="bx bx-pencil" style="font-size: 80px; color: #5DADE2; opacity: 0.3;"></i>
             </div>
           </div>
         </div>

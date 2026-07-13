@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -49,5 +50,37 @@ class User extends Authenticatable
     public function recognitions(): HasMany
     {
         return $this->hasMany(Recognition::class);
+    }
+
+    /**
+     * Check if user is admin
+     */
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    /**
+     * Check if user is super admin
+     */
+    public function isSuperAdmin(): bool
+    {
+        return $this->role === 'super_admin';
+    }
+
+    /**
+     * Check if user is regular user
+     */
+    public function isUser(): bool
+    {
+        return $this->role === 'user';
+    }
+
+    /**
+     * Check if user has admin privileges (admin or super admin)
+     */
+    public function hasAdminPrivileges(): bool
+    {
+        return in_array($this->role, ['admin', 'super_admin']);
     }
 }
